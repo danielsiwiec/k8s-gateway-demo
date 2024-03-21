@@ -1,0 +1,5 @@
+nginx-ingress:
+  controller:
+    enableCustomResources: false
+    appprotect:
+      enable: false

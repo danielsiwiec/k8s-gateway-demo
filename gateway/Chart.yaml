@@ -1,0 +1,12 @@
+apiVersion: v2
+name: hello-world-demo-gateway
+description: Demonstration of the K8s Gateway API
+
+type: application
+version: 0.0.1
+appVersion: 0.0.1
+
+dependencies:
+  - name: nginx-gateway-fabric
+    version: 1.2.0
+    repository: oci://ghcr.io/nginxinc/charts
